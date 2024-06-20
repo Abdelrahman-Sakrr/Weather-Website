@@ -1,0 +1,71 @@
+:root{
+	 --navColor:#1E202B;
+	 --borderColor:#009AD8;
+}
+body{
+	background-color: var(--navColor);
+}
+.myNav{
+	background-color: var(--navColor);
+
+}
+i{
+	font-size: 50px;
+	color: white;
+}
+.myText{
+	border-color: var(--borderColor);
+	border: solid;
+	color: var(--borderColor);
+	transition: all 0.5s; 
+	text-decoration: none;
+}
+
+.items{
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	transition: all 0.5s;
+}
+.items:hover{
+	border-color: var(--borderColor);
+	border: 2px solid;
+	color: var(--borderColor);
+}
+.myInput{
+	background-color: var(--navColor);
+	outline: none;
+	color: white;
+}
+.myImage{
+	background-image: url(https://routeweather.netlify.app/images/banner.png);
+	background-position: center center;
+	background-size: cover;
+	background-clip: border-box;
+	min-height: 250px;
+}
+.w-15{
+	width: 15%;
+}
+.ftSize{
+	font-size: 5rem;
+	font-weight: 500;
+}
+.MyCard{
+	border: 0;
+}
+.myCardHeader{
+	background-color:#222530;
+	color: white;
+}
+.myCardBody{
+	color: white;
+	background-color: #323544;
+}
+h1{
+	font-size:100px ;
+}
+.clearText{
+	color: #314cb9;
+}
+
